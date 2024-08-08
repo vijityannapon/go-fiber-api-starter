@@ -24,17 +24,29 @@ A starter template for building APIs using Fiber with Golang.
 
 2. **Navigate to the project directory**
 
-   ```bash
+```bash
    cd go-fiber-api-starter
+```
+
+3. **Initialize a new Go module**
+
+   ```bash
+   go mod init go-fiber-api-starter
    ```
 
-3. **Install the dependencies**
+4. **Add Fiber dependency**
+
+   ```bash
+   go get github.com/gofiber/fiber/v2
+   ```
+
+5. **Download the dependencies**
 
    ```bash
    go mod download
    ```
 
-4. **Copy `.env.example` to `.env` and modify as needed**
+6. **Copy `.env.example` to `.env` and modify as needed**
 
    ```bash
    cp .env.example .env
